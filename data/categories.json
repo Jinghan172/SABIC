@@ -1,0 +1,152 @@
+{
+  "_comment": "SABIC 上海采购品类配置。来源：SABIC官方产品目录 + 石化行业通用采购品类。分直接原料和间接采购两大类。",
+  "categories": [
+    {
+      "id": "polymer_raw",
+      "name": "聚合物原料",
+      "description": "SABIC 生产用主要化工原料",
+      "search_suffix": "生产制造",
+      "keywords": ["乙烯","丙烯","苯乙烯","丁二烯","乙二醇","对苯二甲酸","PTA","EG"],
+      "products": [
+        {"id":"ethylene","name":"乙烯","aliases":["乙烯单体","ethylene"],"cas":"74-85-1","unit":"吨"},
+        {"id":"propylene","name":"丙烯","aliases":["丙烯单体","propylene"],"cas":"115-07-1","unit":"吨"},
+        {"id":"styrene","name":"苯乙烯","aliases":["乙烯基苯","styrene"],"cas":"100-42-5","unit":"吨"},
+        {"id":"butadiene","name":"丁二烯","aliases":["1,3-丁二烯","butadiene"],"cas":"106-99-0","unit":"吨"},
+        {"id":"eg","name":"乙二醇","aliases":["EG","MEG","乙二醇单体","ethylene glycol"],"cas":"107-21-1","unit":"吨"},
+        {"id":"pta","name":"对苯二甲酸","aliases":["PTA","精对苯二甲酸","purified terephthalic acid"],"cas":"100-21-0","unit":"吨"},
+        {"id":"bisphenol_a","name":"双酚A","aliases":["BPA","二酚基丙烷","bisphenol A"],"cas":"80-05-7","unit":"吨"},
+        {"id":"aniline","name":"苯胺","aliases":["氨基苯","aniline"],"cas":"62-53-3","unit":"吨"}
+      ]
+    },
+    {
+      "id": "specialty_chem",
+      "name": "特种化学品 / 助剂",
+      "description": "用于改性、助剂、添加剂",
+      "search_suffix": "生产",
+      "keywords": ["抗氧剂","阻燃剂","增塑剂","偶联剂","润滑剂","紫外线吸收剂","色母粒"],
+      "products": [
+        {"id":"antioxidant","name":"抗氧剂","aliases":["酚类抗氧剂","phosphite antioxidant"],"unit":"吨"},
+        {"id":"flame_retardant","name":"阻燃剂","aliases":["溴系阻燃剂","磷系阻燃剂","flame retardant"],"unit":"千克"},
+        {"id":"plasticizer","name":"增塑剂","aliases":["塑化剂","phthalate","plasticizer"],"unit":"吨"},
+        {"id":"silane","name":"硅烷偶联剂","aliases":["偶联剂","silane coupling agent"],"unit":"千克"},
+        {"id":"masterbatch","name":"色母粒","aliases":["着色母粒","pigment masterbatch"],"unit":"吨"},
+        {"id":"uv_stabilizer","name":"紫外线吸收剂","aliases":["UV吸收剂","光稳定剂","UV stabilizer"],"unit":"千克"},
+        {"id":"lubricant","name":"润滑剂","aliases":["加工润滑剂","lubricant additive"],"unit":"千克"}
+      ]
+    },
+    {
+      "id": "solvent",
+      "name":"溶剂 / 化学品",
+      "description": "工业溶剂和常用化学品",
+      "search_suffix": "生产",
+      "keywords": ["甲苯","二甲苯","乙酸乙酯","丙酮","甲醇","乙醇","DMF","NMP"],
+      "products": [
+        {"id":"toluene","name":"甲苯","aliases":["toluene","苯甲基"],"cas":"108-88-3","unit":"吨"},
+        {"id":"xylene","name":"二甲苯","aliases":["xylene","混二甲苯"],"cas":"1330-20-7","unit":"吨"},
+        {"id":"ethyl_acetate","name":"乙酸乙酯","aliases":["醋酸乙酯","ethyl acetate"],"cas":"141-78-6","unit":"吨"},
+        {"id":"acetone","name":"丙酮","aliases":["二甲基酮","acetone"],"cas":"67-64-1","unit":"吨"},
+        {"id":"methanol","name":"甲醇","aliases":["木醇","methanol","木精"],"cas":"67-56-1","unit":"吨"},
+        {"id":"nmp","name":"N-甲基吡咯烷酮","aliases":["NMP","N-methyl pyrrolidone"],"cas":"872-50-4","unit":"吨"}
+      ]
+    },
+    {
+      "id": "equipment_process",
+      "name": "工艺设备",
+      "description": "化工生产核心设备",
+      "search_suffix": "制造",
+      "keywords": ["反应釜","换热器","精馏塔","蒸发器","离心机","过滤器","干燥机","塔器","搅拌"],
+      "products": [
+        {"id":"reactor","name":"反应釜","aliases":["聚合釜","搅拌釜","高压釜","reactor vessel"],"unit":"台"},
+        {"id":"heat_exchanger","name":"换热器","aliases":["冷凝器","蒸发器","冷却器","heat exchanger"],"unit":"台"},
+        {"id":"distillation","name":"精馏塔","aliases":["蒸馏塔","分馏塔","distillation column"],"unit":"套"},
+        {"id":"centrifuge","name":"离心机","aliases":["分离机","centrifuge"],"unit":"台"},
+        {"id":"dryer","name":"干燥机","aliases":["干燥器","喷雾干燥","dryer"],"unit":"台"},
+        {"id":"filter","name":"过滤器","aliases":["过滤机","精密过滤","filter vessel"],"unit":"台"}
+      ]
+    },
+    {
+      "id": "pump_valve",
+      "name": "泵阀类",
+      "description": "流体输送和控制设备",
+      "search_suffix": "制造",
+      "keywords": ["离心泵","化工泵","磁力泵","球阀","蝶阀","截止阀","安全阀","调节阀","阀门"],
+      "products": [
+        {"id":"centrifugal_pump","name":"离心泵","aliases":["化工泵","工业泵","centrifugal pump"],"unit":"台"},
+        {"id":"magnetic_pump","name":"磁力泵","aliases":["磁驱泵","magnetic drive pump"],"unit":"台"},
+        {"id":"ball_valve","name":"球阀","aliases":["ball valve","全通径球阀"],"unit":"个"},
+        {"id":"butterfly_valve","name":"蝶阀","aliases":["butterfly valve","对夹蝶阀"],"unit":"个"},
+        {"id":"safety_valve","name":"安全阀","aliases":["relief valve","安全泄压阀"],"unit":"个"},
+        {"id":"control_valve","name":"调节阀","aliases":["control valve","气动调节阀","电动调节阀"],"unit":"个"},
+        {"id":"compressor","name":"压缩机","aliases":["空压机","离心压缩机","往复压缩机","compressor"],"unit":"台"}
+      ]
+    },
+    {
+      "id": "instrument_control",
+      "name": "仪器仪表 / 自动化",
+      "description": "生产监控和自动化控制",
+      "search_suffix": "制造",
+      "keywords": ["DCS","PLC","变送器","流量计","压力表","温度计","液位计","传感器","仪表"],
+      "products": [
+        {"id":"dcs","name":"DCS控制系统","aliases":["分布式控制系统","DCS system","过程控制系统"],"unit":"套"},
+        {"id":"plc","name":"PLC控制器","aliases":["可编程控制器","PLC","programmable logic controller"],"unit":"套"},
+        {"id":"flow_meter","name":"流量计","aliases":["质量流量计","电磁流量计","流量仪","flow meter"],"unit":"台"},
+        {"id":"pressure_transmitter","name":"压力变送器","aliases":["压力表","pressure transmitter"],"unit":"个"},
+        {"id":"temp_sensor","name":"温度传感器","aliases":["热电偶","热电阻","temperature sensor"],"unit":"个"},
+        {"id":"level_gauge","name":"液位计","aliases":["液位传感器","level gauge","料位计"],"unit":"个"},
+        {"id":"analyzer","name":"在线分析仪","aliases":["过程分析仪","气体分析仪","analyzer"],"unit":"台"}
+      ]
+    },
+    {
+      "id": "packaging",
+      "name": "包装材料",
+      "description": "产品包装和运输用材料",
+      "search_suffix": "生产制造",
+      "keywords": ["吨桶","钢桶","编织袋","包装袋","中型散装容器","IBC桶","纸箱"],
+      "products": [
+        {"id":"ibc_drum","name":"IBC吨桶","aliases":["中型散装容器","intermediate bulk container","1000L桶"],"unit":"个"},
+        {"id":"steel_drum","name":"钢桶","aliases":["铁桶","200L桶","steel drum"],"unit":"个"},
+        {"id":"woven_bag","name":"编织袋","aliases":["PP编织袋","吨袋","集装袋","woven bag"],"unit":"条"},
+        {"id":"carton","name":"纸箱","aliases":["外包装纸箱","corrugated box","瓦楞纸箱"],"unit":"个"}
+      ]
+    },
+    {
+      "id": "lab_reagent",
+      "name": "实验室 / 检测",
+      "description": "研发中心和质检部门用品",
+      "search_suffix": "生产",
+      "keywords": ["化学试剂","标准品","色谱柱","实验仪器","分析仪器","检测试剂"],
+      "products": [
+        {"id":"reagent","name":"化学试剂","aliases":["分析纯试剂","化学纯试剂","laboratory reagent"],"unit":"千克"},
+        {"id":"standard","name":"标准品","aliases":["对照品","standard material","参考标准品"],"unit":"克"},
+        {"id":"chromatography","name":"色谱柱","aliases":["HPLC柱","GC柱","chromatography column"],"unit":"根"}
+      ]
+    },
+    {
+      "id": "safety_env",
+      "name": "安全 / 环保",
+      "description": "工厂安全防护和环保处理",
+      "search_suffix": "制造",
+      "keywords": ["防护服","呼吸器","消防设备","废水处理","废气处理","活性炭"],
+      "products": [
+        {"id":"ppe","name":"个人防护用品","aliases":["PPE","防护服","防毒面具","safety equipment"],"unit":"套"},
+        {"id":"fire_equipment","name":"消防设备","aliases":["灭火器","消防泵","firefighting equipment"],"unit":"台"},
+        {"id":"wastewater","name":"废水处理设备","aliases":["污水处理","水处理设备","wastewater treatment"],"unit":"套"},
+        {"id":"activated_carbon","name":"活性炭","aliases":["activated carbon","煤质活性炭","椰壳活性炭"],"unit":"吨"}
+      ]
+    },
+    {
+      "id": "mro",
+      "name": "MRO 维修备件",
+      "description": "设备维护和运营耗材",
+      "search_suffix": "制造",
+      "keywords": ["密封件","垫片","轴承","皮带","滤芯","润滑油","螺栓","管件","法兰"],
+      "products": [
+        {"id":"seal","name":"密封件","aliases":["机械密封","O型圈","密封垫","mechanical seal"],"unit":"套"},
+        {"id":"bearing","name":"轴承","aliases":["滚动轴承","深沟球轴承","bearing"],"unit":"个"},
+        {"id":"gasket","name":"垫片","aliases":["密封垫片","金属垫片","gasket"],"unit":"个"},
+        {"id":"filter_element","name":"滤芯","aliases":["过滤芯","filter element","精密滤芯"],"unit":"个"},
+        {"id":"lubrication_oil","name":"工业润滑油","aliases":["齿轮油","液压油","润滑脂","industrial lubricant"],"unit":"桶"}
+      ]
+    }
+  ]
+}

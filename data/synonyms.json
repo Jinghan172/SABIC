@@ -1,0 +1,341 @@
+{
+  "乙烯": [
+    "乙烯单体",
+    "ethylene",
+    "74-85-1"
+  ],
+  "丙烯": [
+    "丙烯单体",
+    "propylene",
+    "115-07-1"
+  ],
+  "苯乙烯": [
+    "乙烯基苯",
+    "styrene",
+    "100-42-5"
+  ],
+  "丁二烯": [
+    "1,3-丁二烯",
+    "butadiene",
+    "106-99-0"
+  ],
+  "乙二醇": [
+    "EG",
+    "MEG",
+    "乙二醇单体",
+    "ethylene glycol",
+    "107-21-1"
+  ],
+  "EG": [
+    "乙二醇",
+    "MEG",
+    "乙二醇单体",
+    "ethylene glycol"
+  ],
+  "MEG": [
+    "乙二醇",
+    "EG",
+    "乙二醇单体",
+    "ethylene glycol"
+  ],
+  "对苯二甲酸": [
+    "PTA",
+    "精对苯二甲酸",
+    "purified terephthalic acid",
+    "100-21-0"
+  ],
+  "PTA": [
+    "对苯二甲酸",
+    "精对苯二甲酸",
+    "purified terephthalic acid"
+  ],
+  "双酚A": [
+    "BPA",
+    "二酚基丙烷",
+    "bisphenol A",
+    "80-05-7"
+  ],
+  "BPA": [
+    "双酚A",
+    "二酚基丙烷",
+    "bisphenol A"
+  ],
+  "苯胺": [
+    "氨基苯",
+    "aniline",
+    "62-53-3"
+  ],
+  "抗氧剂": [
+    "酚类抗氧剂",
+    "phosphite antioxidant"
+  ],
+  "阻燃剂": [
+    "溴系阻燃剂",
+    "磷系阻燃剂",
+    "flame retardant"
+  ],
+  "增塑剂": [
+    "塑化剂",
+    "phthalate",
+    "plasticizer"
+  ],
+  "硅烷偶联剂": [
+    "偶联剂",
+    "silane coupling agent"
+  ],
+  "色母粒": [
+    "着色母粒",
+    "pigment masterbatch"
+  ],
+  "紫外线吸收剂": [
+    "UV吸收剂",
+    "光稳定剂",
+    "UV stabilizer"
+  ],
+  "润滑剂": [
+    "加工润滑剂",
+    "lubricant additive"
+  ],
+  "甲苯": [
+    "toluene",
+    "苯甲基",
+    "108-88-3"
+  ],
+  "二甲苯": [
+    "xylene",
+    "混二甲苯",
+    "1330-20-7"
+  ],
+  "xylene": [
+    "二甲苯",
+    "混二甲苯"
+  ],
+  "乙酸乙酯": [
+    "醋酸乙酯",
+    "ethyl acetate",
+    "141-78-6"
+  ],
+  "丙酮": [
+    "二甲基酮",
+    "acetone",
+    "67-64-1"
+  ],
+  "甲醇": [
+    "木醇",
+    "methanol",
+    "木精",
+    "67-56-1"
+  ],
+  "N-甲基吡咯烷酮": [
+    "NMP",
+    "N-methyl pyrrolidone",
+    "872-50-4"
+  ],
+  "NMP": [
+    "N-甲基吡咯烷酮",
+    "N-methyl pyrrolidone"
+  ],
+  "反应釜": [
+    "聚合釜",
+    "搅拌釜",
+    "高压釜",
+    "reactor vessel"
+  ],
+  "换热器": [
+    "冷凝器",
+    "蒸发器",
+    "冷却器",
+    "heat exchanger"
+  ],
+  "精馏塔": [
+    "蒸馏塔",
+    "分馏塔",
+    "distillation column"
+  ],
+  "离心机": [
+    "分离机",
+    "centrifuge"
+  ],
+  "干燥机": [
+    "干燥器",
+    "喷雾干燥",
+    "dryer"
+  ],
+  "dryer": [
+    "干燥机",
+    "干燥器",
+    "喷雾干燥"
+  ],
+  "过滤器": [
+    "过滤机",
+    "精密过滤",
+    "filter vessel"
+  ],
+  "离心泵": [
+    "化工泵",
+    "工业泵",
+    "centrifugal pump"
+  ],
+  "磁力泵": [
+    "磁驱泵",
+    "magnetic drive pump"
+  ],
+  "球阀": [
+    "ball valve",
+    "全通径球阀"
+  ],
+  "蝶阀": [
+    "butterfly valve",
+    "对夹蝶阀"
+  ],
+  "安全阀": [
+    "relief valve",
+    "安全泄压阀"
+  ],
+  "调节阀": [
+    "control valve",
+    "气动调节阀",
+    "电动调节阀"
+  ],
+  "压缩机": [
+    "空压机",
+    "离心压缩机",
+    "往复压缩机",
+    "compressor"
+  ],
+  "DCS控制系统": [
+    "分布式控制系统",
+    "DCS system",
+    "过程控制系统"
+  ],
+  "PLC控制器": [
+    "可编程控制器",
+    "PLC",
+    "programmable logic controller"
+  ],
+  "PLC": [
+    "PLC控制器",
+    "可编程控制器",
+    "programmable logic controller"
+  ],
+  "流量计": [
+    "质量流量计",
+    "电磁流量计",
+    "流量仪",
+    "flow meter"
+  ],
+  "压力变送器": [
+    "压力表",
+    "pressure transmitter"
+  ],
+  "温度传感器": [
+    "热电偶",
+    "热电阻",
+    "temperature sensor"
+  ],
+  "液位计": [
+    "液位传感器",
+    "level gauge",
+    "料位计"
+  ],
+  "在线分析仪": [
+    "过程分析仪",
+    "气体分析仪",
+    "analyzer"
+  ],
+  "IBC吨桶": [
+    "中型散装容器",
+    "intermediate bulk container",
+    "1000L桶"
+  ],
+  "钢桶": [
+    "铁桶",
+    "200L桶",
+    "steel drum"
+  ],
+  "编织袋": [
+    "PP编织袋",
+    "吨袋",
+    "集装袋",
+    "woven bag"
+  ],
+  "纸箱": [
+    "外包装纸箱",
+    "corrugated box",
+    "瓦楞纸箱"
+  ],
+  "化学试剂": [
+    "分析纯试剂",
+    "化学纯试剂",
+    "laboratory reagent"
+  ],
+  "标准品": [
+    "对照品",
+    "standard material",
+    "参考标准品"
+  ],
+  "色谱柱": [
+    "HPLC柱",
+    "GC柱",
+    "chromatography column"
+  ],
+  "个人防护用品": [
+    "PPE",
+    "防护服",
+    "防毒面具",
+    "safety equipment"
+  ],
+  "PPE": [
+    "个人防护用品",
+    "防护服",
+    "防毒面具",
+    "safety equipment"
+  ],
+  "消防设备": [
+    "灭火器",
+    "消防泵",
+    "firefighting equipment"
+  ],
+  "废水处理设备": [
+    "污水处理",
+    "水处理设备",
+    "wastewater treatment"
+  ],
+  "活性炭": [
+    "activated carbon",
+    "煤质活性炭",
+    "椰壳活性炭"
+  ],
+  "密封件": [
+    "机械密封",
+    "O型圈",
+    "密封垫",
+    "mechanical seal"
+  ],
+  "轴承": [
+    "滚动轴承",
+    "深沟球轴承",
+    "bearing"
+  ],
+  "垫片": [
+    "密封垫片",
+    "金属垫片",
+    "gasket"
+  ],
+  "gasket": [
+    "垫片",
+    "密封垫片",
+    "金属垫片"
+  ],
+  "滤芯": [
+    "过滤芯",
+    "filter element",
+    "精密滤芯"
+  ],
+  "工业润滑油": [
+    "齿轮油",
+    "液压油",
+    "润滑脂",
+    "industrial lubricant"
+  ]
+}
